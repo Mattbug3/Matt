@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projectDetails.css">
+    <title>project-1</title>
+</head>
+<body>
+    <!-- --------header------- -->
+    <div id="header">
+        <div class="mask"></div>
+        <div class="container">
+            <nav class="navbar">
+                <h1 class="name"><span class="span">M</span>att</h1>
+                <div class="list-container">
+                    <iconify-icon icon="jam:close" style="color: #ff004f;" width="40" class="close-icon close-icon-2"></iconify-icon>
+                    <ul>
+                        <li><a href="/" class="a">Home</a></li>
+                        <li><a href="/#about" class="a">About Me</a></li>
+                        <li><a href="/#projects" class="a">Projects</a></li>
+                        <li><a href="/#contact" class="a">Contact Me</a></li>
+                    </ul>
+                </div>
+                <iconify-icon icon="jam:menu" style="color: #4cbb17" width="40" class="menu-icon menu-icon-2"></iconify-icon>
+            </nav>
+            <div class="header-text">
+                <h1>the Weather App</h1>
+                <p>
+                    This page presents a detailed case study of the Weather App, featuring insights into the Project Overview, Tools Used, and direct Live Links to the official products.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------project details------- -->
+    <div id="projects">
+        <div class="container">
+            <div class="projects-image-container">
+                <img src="../images/weather-app.png" alt="">
+            </div>
+
+            <div class="projects-details-container">
+                <h3>Project Overview</h3>
+                <p>
+                    The Weather App is a fully responsive web application where HTML, CSS, and JavaScript power the front-end experience. Leveraging the OpenWeather API, I seamlessly fetch real-time weather information. 
+                    <br><br>
+                    The Weather App offers a dynamic, responsive platform, harmonizing design principles with advanced functionality for users to explore real-time weather information.
+                    <br><br>
+                    This project is a testament to my expertise in HTML, CSS, and JavaScript fundamentals, showcasing not only technical mastery but also my adeptness in utilizing APIs for a seamless user experience.
+                </p>
+            </div>
+
+            <div class="tools-container">
+                <h3>Tools Used</h3>
+                <div class="toolsbtn-container">
+                    <button>HTML</button>
+                    <button>CSS</button>
+                    <button>JavaScript</button>
+                    <button>OpenWeather API</button>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <h3>See Live</h3>
+                <div class="buttonlink-conntainer">
+                    <a href="https://github.com/Mattbug3/weather_app" class="btn" target="_blank">View Code</a>
+                    <a href="https://mattbug3.github.io/weather_app/" class="btn" target="_blank">Live Link</a>
+                </div>
+                <a href="/" class="btn backBtn">Go Back</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------footer------- -->
+    <div class="copyright">
+        <p>© Copyright 2023. Made by Matt</p>
+    </div>
+
+    <script src="../index.js"></script>
+    <script src="projectDetails.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+</html>
+
+<!-- "predeploy": "npm run build",
+    "deploy": "gh-pages -d build", -->
