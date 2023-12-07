@@ -77,8 +77,19 @@
     </div>
 
     <script src="../index.js"></script>
-    <script src="projectDetails.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script>
+        document.querySelector('.menu-icon-1').addEventListener('click', () => {
+            document.querySelector('.list-container').style.right='0px'
+            document.querySelector('.menu-icon-1').style.display = 'none'
+        console.log(clicked)
+        })
+
+        document.querySelector('.close-icon-1').addEventListener('click', () => {
+            document.querySelector('.list-container').style.right='-300px'
+            document.querySelector('.menu-icon-1').style.display = 'block'
+        })
+    </script>
 </body>
 </html>
 
